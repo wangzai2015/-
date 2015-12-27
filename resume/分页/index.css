@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none;
+}
+.box{
+    margin: 10px auto;
+    width: 600px;
+    padding: 20px;
+    border: 1px solid #006eb3;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.box h2{
+    height: 35px;
+    line-height: 35px;
+    background: #aaa;
+}
+.box h2 span{
+    display: inline-block;
+    width: 200px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+}
+.box .list li{
+    height: 30px;
+    line-height: 30px;
+
+}
+ul li{
+    list-style: none;
+}
+.box .list li.even{
+    background: #ccc;
+}
+.box .list li span{
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: block;
+    float: left;
+}
+.box .page{
+    float: right;
+    margin-top: 10px;
+
+}
+.box .page ul{
+    float: left;
+
+    overflow: hidden;
+}
+.box .page span,.box .page ul li,.box .page input{
+    float: left;
+    border: 1px solid #3df8ff;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.box .page span,.box .page input{
+    width: 50px;
+    display: block;
+}
+.box .page ul li{
+    width: 20px;
+}
+input{
+    outline: none;
+}
+.box .page ul li.select{
+    background: #3df8ff;
+}
